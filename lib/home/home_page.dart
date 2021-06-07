@@ -19,6 +19,8 @@ class _HomePageState extends State<HomePage> {
           children: [
             LevelButtonWidget(
               label: "Fácil",
+            SizedBox(
+              height: 24,
             ),
             LevelButtonWidget(
               label: "Médio",
@@ -28,6 +30,8 @@ class _HomePageState extends State<HomePage> {
             ),
             LevelButtonWidget(
               label: "Perito",
+            SizedBox(
+              height: 24,
             ),
           ],
         ),
