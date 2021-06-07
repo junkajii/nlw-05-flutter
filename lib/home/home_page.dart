@@ -24,6 +24,22 @@ class _HomePageState extends State<HomePage> {
             ),
             LevelButtonWidget(
               label: "Médio",
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                LevelButtonWidget(
+                  label: "Fácil",
+                ),
+                LevelButtonWidget(
+                  label: "Médio",
+                ),
+                LevelButtonWidget(
+                  label: "Difícil",
+                ),
+                LevelButtonWidget(
+                  label: "Perito",
+                ),
+              ],
             ),
             LevelButtonWidget(
               label: "Difícil",
