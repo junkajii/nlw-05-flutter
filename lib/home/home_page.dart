@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        child: Column(
           children: [
             LevelButtonWidget(
               label: "Fácil",
